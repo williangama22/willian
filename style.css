@@ -182,3 +182,34 @@
    color: var(--efeito);
    background-color: #ff0c0c;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 100%;
+  }
+
+  .secudario {
+    margin: 0;
+  }
+
+  .secudario_imagem,
+  .container_descricao {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .descricao_titulo {
+    font-size: 32px;
+  }
+
+  .dispositivos_titulo {
+    font-size: 32px;
+  }
+
+  .lista_item {
+    font-size: 24px;
+  }
+}
+
